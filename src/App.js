@@ -13,7 +13,6 @@ function App() {
         <Route path="/coin/:id" element={<SingleCoin/>}/>
         <Route path="/news" element={<News/>}/>
 
-
       </Routes>
      </div>
   );

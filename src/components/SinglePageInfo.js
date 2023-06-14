@@ -16,7 +16,7 @@ function SinglePageInfo(props) {
       if(!coin)return <Loader/>
       else if(coin)
   return (
-    <div className='w-full text-white h-[90vh] mx-auto flex flex-col items-center'>
+    <div className='w-full text-white h-[40vh] mx-auto flex flex-col items-center'>
         <img className='w-20 h-20' src={coin.image.small} alt="coin icon" />
         <h1 className='text-2xl font-bold'>{coin.name}</h1>
         <p className='font-bold'>

@@ -35,8 +35,8 @@ function News() {
       }, []);
 if(news)
   return (
-    <div className='grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto'>{news.map(item=>{
-  return <div className='w-[200px] h-20 bg-gray-500 border-2 border-black overflow-hidden'>{item.name}</div>
+    <div className='grid grid-flow-row-dense  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mx-auto bg-black-500' >{news.map(item=>{
+  return <div className=' h-30 p-4 bg-gray-500 border-2 border-black overflow-hidden'>{item.name}</div>
     })}</div>
   )
 }

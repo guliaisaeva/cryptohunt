@@ -80,6 +80,7 @@ function SinglePageChart({ id }) {
               marginTop: 20,
               justifyContent: "space-around",
               width: "100%",
+              color:"#fff",
             }}
           >
             {chartDays.map((day) => (

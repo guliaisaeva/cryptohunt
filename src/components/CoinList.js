@@ -26,7 +26,7 @@ const navigate= useNavigate();
 
  if(!Coins.length > 0) return <Loader/>
   return (
-    <div  className='w-[90%] mx-auto mt-5'><input type="text" className='w-full' onInput={(e)=>setSearch(e.target.value)}/>
+    <div  className='w-full '><input type="text" className='w-[80%] mx-auto mt-5' onInput={(e)=>setSearch(e.target.value)}/>
     <table className='w-[90%] mx-auto mt-5'>
     <thead className='bg-yellow-500 text-left'>
       <tr>

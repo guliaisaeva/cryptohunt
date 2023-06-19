@@ -14,7 +14,7 @@ function Header() {
             <li onClick={()=>navigate("/news")}>NEWS</li>
         </ul>
     </nav>
-    <div onClick={()=>setCollapsed(!collapsed)} className='text-white cursor-pointer mr-5 text-red-600 pl-5'>Click</div>
+    <div onClick={()=>setCollapsed(!collapsed)} className='cursor-pointer mr-5 text-red-600 pl-5'>Click</div>
     <Sidebar collapsed={collapsed} setCollapsed={setCollapsed} />
   </header>
   )
